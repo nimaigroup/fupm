@@ -1,0 +1,152 @@
+{
+    "songs":
+	[
+		{
+			"label": "Heartcore Music",
+			"artist": "Sasa Hasid RA",
+			"series": "nightmerikkkana",
+			"trackNumber": "0"
+			"title": "F.E.A.R.",
+			"subTitle": "False Evidence Appearing Real",
+			"songId": "USXX41100013",
+			"releaseDate": "12.21.12",
+			"image":"images/songs/fear.png",
+			"copy": 
+			{
+				"quote": "Always Believe... Your Dreams are Sacred",
+				"copyright": "Music and Lyrics Copyright 2012 by Sasa RA. All Rights Reserved.",
+				"credits": "All vocals and instruments performed by Sasa Hasid RA except: News intro written by Sasa RA and read by Treva Etienne. Spiritual intro read from Srimad Bhagavad Gita - The Hidden Treasure of the Sweet Absolute. Translated by His Divine Grace Srila Bhakti Rakshak Sridhar Dev-Goswami Maharaja. Read by Mahananda Bhakti Ranjan",
+			},
+			"buyLink": 
+			{
+		        "uri": "http://www.souljah.com/",
+		        "type": "external",
+		        "target": "_self"
+			},
+			"freeLink": 
+			{
+		        "uri": "http://www.souljah.com/",
+		        "type": "external",
+		        "target": "_self"
+			},
+			"videoLink": 
+			{
+		        "uri": "http://www.souljah.com/",
+		        "type": "external",
+		        "target": "_self"
+			},
+			"subscribeLink": 
+			{
+		        "uri": "http://www.souljah.com/",
+		        "type": "external",
+		        "target": "_self"
+			}		
+		},
+		{
+			"label": "Heartcore Music",
+			"artist": "Sasa Hasid RA",
+			"series": "nightmerikkkana",
+			"trackNumber": "1"
+			"title": "Nightmerikkkana",
+			"subTitle": "",
+			"songId": "USXX41100014",
+			"releaseDate": "12.29.12",
+			"image":"images/songs/nightmerikkkana.png",
+			"copy": 
+			{
+				"quote": "One man's dream is another man's nightmare...",
+				"copyright": "Music and Lyrics Copyright 2012 by Sasa Hasid RA. All Rights Reserved.",
+				"credits": "All vocals and instruments performed by Sasa Hasid RA except violin performed by Olesya 'Violesya' K.",
+			},
+			"buyLink": 
+			{
+		        "uri": "http://www.souljah.com/",
+		        "type": "external",
+		        "target": "_self"
+			},
+			"freeLink": 
+			{
+		        "uri": "http://www.souljah.com/",
+		        "type": "external",
+		        "target": "_self"
+			},
+			"videoLink": 
+			{
+		        "uri": "http://www.souljah.com/",
+		        "type": "external",
+		        "target": "_self"
+			},
+			"subscribeLink": 
+			{
+		        "uri": "http://www.souljah.com/",
+		        "type": "external",
+		        "target": "_self"
+			}		
+		},
+		{
+			"label": "Heartcore Music",
+			"artist": "Sasa Hasid RA",
+			"series": "nightmerikkkana",
+			"trackNumber": "0"
+			"title": "We Believe",
+			"subTitle": "",
+			"songId": "USXX41100015",
+			"releaseDate": "12.21.12",
+			"image":"images/songs/WeBelieve.png",
+			"copy": 
+			{
+				"quote": "What do you believe in? Does it really lift you up? Does it leave you high and dry?",
+				"copyright": "Music and Lyrics Copyright 2012 by Sasa RA. All Rights Reserved.",
+				"credits": "All vocals and instruments performed by Sasa Hasid RA.",
+			},
+			"buyLink": 
+			{
+		        "uri": "http://www.souljah.com/",
+		        "type": "external",
+		        "target": "_self"
+			},
+			"freeLink": 
+			{
+		        "uri": "http://www.souljah.com/",
+		        "type": "external",
+		        "target": "_self"
+			},
+			"videoLink": 
+			{
+		        "uri": "http://www.souljah.com/",
+		        "type": "external",
+		        "target": "_self"
+			},
+			"subscribeLink": 
+			{
+		        "uri": "http://www.souljah.com/",
+		        "type": "external",
+		        "target": "_self"
+			}		
+		}
+	],
+	"plans":
+	[
+		{
+			"toolId": "15443353",
+			"description": "Tracfone 450-Minutes Wireless Airtime Card",
+			"image":"images/products/plans/15443353.png",
+			"type": ["pay_as_you_go"],
+			"minutes": "lowMinutes",
+			"text": ["none"],
+			"features": ["international","freeroaming"],
+			"copy": 
+			{
+				"feature_copy_1": "450 minutes & 90 days of service included.",
+				"feature_copy_2": "Call Nationally, Internationally or Roam at Local Rates.",
+				"feature_copy_3": "Nationwide, Reliable coverage."
+			},
+			"link": 
+			{
+		        "uri": "http://www.walmart.com/ip/15443353/",
+		        "type": "external",
+		        "target": "_self"
+			}			
+		}
+	]
+}

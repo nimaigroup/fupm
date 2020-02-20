@@ -1,0 +1,355 @@
+/* ========================================
+Project: Tracfone
+Copyright 2012 Lunchbox
+Project Date: 03/05/2012
+Author: Lunchbox => http://lbox.com
+
+SWATCH COLORS
+====================
+LogoBlue: #fff
+========================================= 
+
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: disc inside none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clear_all
+{
+	clear:both;
+}
+
+
+
+/* end reset */
+
+
+/* walmart header fix */
+
+#globalNav_wide #sliderInner form {
+    float: right;
+    left: -185px;
+    position: relative;
+    top: -67px;
+    width: 191px;
+}
+
+#globalNav_wide #CartBtn {
+    float: right;
+    height: 52px;
+    margin-left: -4px;
+    padding-left: 10px;
+    position: relative;
+    top: -15px;
+    width: 140px;
+}
+
+#globalNav_wide .findButton {
+    float: right;
+    padding: 12px 0 15px;
+    position: relative;
+    top: -15px;
+    width: 38px;
+}
+
+/* end walmart header fix */
+
+/*================================STRUCTURE================================*/
+
+
+
+.left {
+	float: left;
+	width: auto;
+}
+.right {
+	float: right;
+	width: auto;
+}
+.clear {
+	clear: both;
+	height: 1px;
+	margin: 0 0 -1px;
+	width: 100%;
+}
+.tf-flex-item {
+	padding-top: 10px;
+	margin-right: 10px;
+}
+
+#spinnerwheel
+{
+	position:relative;
+	top:200px;
+	margin-left:auto;
+	margin-right:auto;
+	width:60px;
+	height:60px;
+}
+
+#snackwrap {
+	width:805px;
+	height:auto;
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:12px;
+	margin-right:auto;
+	text-align:left;
+
+}
+
+#tf_header {
+	background-image:url(../images/background/header-bg.jpg);
+	background-repeat:no-repeat;
+	position:relative;
+	width:805px;
+	height:50px;
+	
+}
+#tf_logo {
+	float:left;
+	padding-left: 9px;
+	padding-top: 9px;
+	cursor: pointer;
+    
+}
+#tf_tagline {
+	float:right;
+	padding-top: 19px;
+	padding-right:9px;
+}
+#tf_container {
+	background-image:url(../images/background/container-bg.jpg);
+	background-repeat:no-repeat;
+	width:805px;
+	height:718px;
+}
+
+#tf-calculator {
+	position:relative;
+	width:387px;
+	height:341px;
+	float:left;
+	margin-left: 10px;
+}
+
+
+#tf_shop_carrier {
+	height: 170px;
+	width: 805px;
+}
+
+#tf_shop_carrier_header {
+    background-image: url(../images/background/tf_shop_carrier_header_bg.jpg);
+    background-repeat: repeat-y;
+    font-size: 13px;
+    font-weight: bold;
+    height: 19px;
+    margin-top: 1px;
+    padding-top: 7px;
+    text-align: center;
+    color: #4c4c4c;
+}
+
+#tf_shop_carrier_bg {
+    background-image: url(../images/background/tf_shop_carrier_bg.jpg);
+    background-repeat: no-repeat;
+    height: 46px;
+    position: absolute;
+    top: 870px;
+    width: 805px;
+}
+
+#tf-flex {
+	float:right;
+}
+
+#tf-flex-university {
+	background-image:url(../images/background/flex-university.jpg);
+	background-repeat:no-repeat;
+	position:relative;
+	width:387px;
+	height:107px;
+}
+#tf-flex-broadband {
+	background-image:url(../images/background/flex-broadband.jpg);
+	background-repeat:no-repeat;
+	position:relative;
+	width:387px;
+	height:107px;
+}
+#tf-flex-airtime {
+	background-image:url(../images/background/flex-airtime.jpg);
+	background-repeat:no-repeat;
+	position:relative;
+	width:387px;
+	height:107px;
+}
+
+/*================================FONTS================================*/
+
+/*================================BUTTONS================================*/
+.pov_close_btn {
+    background-image: url(../images/common/close_btn.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 32px;
+    left: 770px;
+    position: absolute;
+    top: 35px;
+    width: 32px;
+}
+
+.pov_close_btn:hover {
+	background-position:0px -32px;
+}
+
+.shopNowBtn {
+	background-image: url(../images/commerce/ShopNow_btn.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 25px;
+    left: 273px;
+    position: relative;
+    top: 62px;
+    width: 102px;
+}
+.shopNowBtn:hover {
+	background-position:0px -25px;
+}
+.LearnMore_btn {
+	background-image: url(../images/commerce/LearnMore_btn.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 25px;
+    left: 273px;
+    position: relative;
+    top: 62px;
+    width: 103px;
+}
+.LearnMore_btn:hover {
+	background-position:0px -25px;
+}
+.RefillNow_btn {
+	background-image: url(../images/commerce/RefillNow_btn.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 25px;
+    left: 273px;
+    position: relative;
+    top: 62px;
+    width: 102px;
+}
+.RefillNow_btn:hover {
+	background-position:0px -25px;
+}
+
+
+
+.carrier_btn_net10 {
+	background-image:url(../images/logos/Carrier_Net10.png);
+	background-repeat:no-repeat;
+	cursor: pointer;
+	position: relative;
+	width:130px;
+	height:42px;
+	z-index: 40;
+	top: 50px;
+	left:130px;
+}
+.carrier_btn_net10:hover {
+	background-position:0px -42px;
+}
+
+.carrier_btn_straightTalk {
+    background-image: url(../images/logos/Carrier_StraightTalk.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 79px;
+    left: 336px;
+    position: relative;
+    top: -10px;
+    width: 128px;
+    z-index: 40;
+}
+.carrier_btn_straightTalk:hover {
+	background-position:0px -79px;
+}
+
+.carrier_btn_tracfone {
+    background-image: url(../images/logos/Carrier_Tracfone.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 21px;
+    left: 546px;
+    position: relative;
+    top: -54px;
+    width: 140px;
+    z-index: 40;
+}
+.carrier_btn_tracfone:hover {
+	background-position:0px -21px;
+}
+
+.darkClass {
+    background-color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 339px;
+    width: 100%;
+    z-index: 0 !important;
+}
+
+
+
+
+/*================================IMAGES================================*/
+
+
